@@ -57,6 +57,7 @@ return packer.startup(function(use)
   -- Syntax/Treesitter
   use "nvim-treesitter/nvim-treesitter"
   use "windwp/nvim-ts-autotag"
+  use "windwp/nvim-autopairs"
  
   -- Fuzzy Finder/Telescope
   use "nvim-telescope/telescope.nvim"
@@ -95,7 +96,7 @@ return packer.startup(function(use)
 
   -- Keybinding
   use "folke/which-key.nvim"
-
+ 
   -- Dap
   use 'mfussenegger/nvim-dap'
   

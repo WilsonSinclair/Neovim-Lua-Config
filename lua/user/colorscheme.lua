@@ -1,6 +1,6 @@
 local colorscheme = "onedarker"
 
-vim.g.onedarker_italic_keywords = false
+vim.g.onedarker_italic_keywords = true
 
 vim.g.onedarker_italic_functions = false
 
