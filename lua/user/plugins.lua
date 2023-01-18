@@ -58,6 +58,7 @@ return packer.startup(function(use)
   use "nvim-treesitter/nvim-treesitter"
   use "windwp/nvim-ts-autotag"
   use "windwp/nvim-autopairs"
+  use "RRethy/vim-illuminate"
  
   -- Fuzzy Finder/Telescope
   use "nvim-telescope/telescope.nvim"
@@ -68,6 +69,7 @@ return packer.startup(function(use)
   use "lunarvim/darkplus.nvim"
   use "folke/tokyonight.nvim"
   use "lunarvim/colorschemes"
+  use "savq/melange-nvim" -- similar to gruvbox
 
   -- Icon
   use "kyazdani42/nvim-web-devicons"
@@ -96,10 +98,8 @@ return packer.startup(function(use)
 
   -- Keybinding
   use "folke/which-key.nvim"
- 
   -- Dap
   use 'mfussenegger/nvim-dap'
-  
   --Java
   use 'mfussenegger/nvim-jdtls'
 

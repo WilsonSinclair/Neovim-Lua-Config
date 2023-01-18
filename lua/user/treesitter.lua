@@ -27,7 +27,7 @@ configs.setup {
   autopairs = {
     enable = true,
   },
-  indent = { enable = true, disable = { "python", "css", "rust" } },
+  indent = { enable = true, disable = { "python", "css" } },
   context_commentstring = {
     enable = true,
     enable_autocmd = false,
@@ -37,7 +37,7 @@ configs.setup {
     disable = { "xml", "markdown" },
   },
   rainbow = {
-    enable = true,
+    enable = false,
     extended_mode = false,
     colors = {
       -- "#68a0b0",

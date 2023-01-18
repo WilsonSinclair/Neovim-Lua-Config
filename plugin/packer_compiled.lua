@@ -159,6 +159,11 @@ _G.packer_plugins = {
     path = "/home/wilson/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["melange-nvim"] = {
+    loaded = true,
+    path = "/home/wilson/.local/share/nvim/site/pack/packer/start/melange-nvim",
+    url = "https://github.com/savq/melange-nvim"
+  },
   ["nvim-autopairs"] = {
     loaded = true,
     path = "/home/wilson/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
@@ -248,6 +253,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/wilson/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
+  },
+  ["vim-illuminate"] = {
+    loaded = true,
+    path = "/home/wilson/.local/share/nvim/site/pack/packer/start/vim-illuminate",
+    url = "https://github.com/RRethy/vim-illuminate"
   },
   ["which-key.nvim"] = {
     loaded = true,
